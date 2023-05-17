@@ -1,11 +1,11 @@
 import { TestBed } from '@angular/core/testing';
-import AppComponent from './app.component';
+import LandingComponent from './landing.component';
 
-describe('AppComponent', () => {
-  let component: AppComponent;
+describe('LandingComponent', () => {
+  let component: LandingComponent;
 
   beforeEach(() => {
-    const fixture = TestBed.createComponent(AppComponent);
+    const fixture = TestBed.createComponent(LandingComponent);
     component = fixture.componentInstance;
   });
 
